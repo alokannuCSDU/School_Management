@@ -21,8 +21,7 @@ function App() {
           <Route path="/activities" element={<Activities />} />
           <Route path="/achievements" element={<Achievements />} />
           <Route path="/about" element={<About/>} />
-          {/* <Route path="/result" element={<Result />} />
-          <Route path="/contact" element={<Contact />} /> */}
+          
         </Routes>
         <Footer />
       </div>
