@@ -1,0 +1,62 @@
+.home {
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  overflow: hidden;
+height: 80vh;   /* Full viewport height */
+}
+
+.header-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; /* Space between logo and h2 */
+  position: relative;
+  z-index: 1; /* Content above the background and overlay */
+}
+
+.home h2 {
+  font-size: 50px;
+  color: #ffe600; /* Text color to stand out */
+  margin: 0; /* Remove default margin */
+}
+
+.home h3 {
+  font-size: 24px; /* Set font size for h3 */
+  margin-top: 10px;
+  color: #e5ff00; /* Text color to stand out */
+  position: relative;
+  z-index: 1; /* Above the background and overlay */
+}
+
+.school-logo {
+  position: relative; /* Change to relative for static positioning */
+  z-index: 2; /* Above the overlay and background */
+}
+
+.school-logo img {
+  width: 100px;
+  height: auto;
+}
+
+.carousel-container {
+  position: relative;
+  width: 100%;
+  height: 425px; /* Set a fixed height for the carousel */
+  max-width: 800px;
+  overflow: hidden;
+  margin: 20px auto;
+  z-index: 1; /* Carousel above the background and overlay */
+}
+
+.carousel-slide {
+  display: flex;
+  transition: transform 1s ease-in-out; /* Smooth transition for slides */
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: 100%;
+  border-radius: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow to make images stand out */
+}

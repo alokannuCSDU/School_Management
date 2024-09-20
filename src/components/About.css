@@ -1,0 +1,11 @@
+.About h2 {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.content {
+  padding-left: 250px;
+  padding-right: 250px;
+}
